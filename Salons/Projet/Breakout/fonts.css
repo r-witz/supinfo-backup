@@ -1,0 +1,20 @@
+@font-face {
+    font-family: squareFont;
+    src: url(braciola.ttf);
+}
+@font-face {
+    font-family: Mario;
+    src: url(mario_font.ttf);
+}
+@font-face {
+    font-family: angryBirds;
+    src: url(FEASFBRG.ttf);
+}
+@font-face {
+    font-family: stylizedTitle;
+    src: url(streetcred.ttf);
+}
+@font-face {
+    font-family: bebasNeue;
+    src: url(BebasNeue.otf);
+}

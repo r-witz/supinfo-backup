@@ -1,0 +1,112 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+button {
+    width: 50px;
+    height: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    margin: 0 20px 0 20px;
+}
+
+#controls {
+    top: 90%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 99;
+}
+
+#GameOver{
+    font-size: 7em;
+    font-family: squareFont, monospace;
+    color: grey;
+}
+
+#gameEnd {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 97;
+}
+
+#home {
+    background-image: url("home.png");
+}
+
+#mute {
+    background-image: url("sound_off.png");
+}
+
+#refresh {
+    background-image: url("refresh.png");
+}
+
+#gameInfo {
+    min-height: 100%;
+    min-width: auto;
+    justify-self: center;
+    margin-top: 5px;
+}
+
+#Points {
+    margin-right: 50px;
+    font-family: squareFont, monospace;
+    font-size: 7em;
+    color: grey;
+}
+
+#Lives {
+    margin-left: 50px;
+    font-family: squareFont, monospace;
+    font-size: 7em;
+    color: grey;
+}
+
+#gameArea {
+    position: relative;
+    margin-top: 50px;
+    height: 600px;
+    width: 650px;
+    border-top: 70px;
+    border-left: 70px;
+    border-right: 70px;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: grey;
+    background-color: black;
+}
+
+#ball {
+    height: 10px;
+    width: 10px;
+    background-color: red;
+    position: fixed;
+}
+
+table {
+    height: 50%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#playingBar {
+    position: absolute;
+    /*top: 90%;*/
+    left: 43%;
+    width: 100px;
+    height: 10px;
+    background-color: red;
+}
+

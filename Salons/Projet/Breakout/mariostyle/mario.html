@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script type="text/javascript"
+            src="../jquery.min.js"></script>
+    <meta charset="UTF-8">
+    <title>Breakout - A Gaming Company Game</title>
+    <link rel="stylesheet" href="../fonts.css">
+    <link rel="stylesheet" href="mariostyle.css">
+    <script type="text/javascript"
+            src="marioscript.js"></script>
+</head>
+<body>
+    <div id="death"><img class="marioDeathGIF" src="mario%20death.gif"/> <label id="GameOver">Game Over</label></div>
+    <div id="win"><img class="marioWin" src="marioWin.gif"/> <label id="GameWin">Partie Gagnée</label></div>
+    <div id="gameInfo"><label id="Points">000000</label><div id="livesDiv"><img id="coin" src="coin.gif" alt="mario coin"/><label id="Lives">x03</label></div></div>
+    <div id="gameArea">
+        <div id="ball"></div>
+        <table id="plateau">
+        </table>
+        <div id="pressPlay"><label>Click to launch the Ball</label></div>
+        <div id="playingBar"></div>
+    </div>
+    <div id="controls"><button id="home" onclick="location.href='../index.html'"></button><button id="mute"></button><button id="refresh"></button></div>
+</body>
+</html>

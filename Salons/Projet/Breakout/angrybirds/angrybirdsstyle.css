@@ -1,0 +1,188 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #6096ff;
+    background-image: url("background.png");
+    background-size: contain;
+    background-position-y: bottom;
+    background-repeat: round;
+    margin: 0;
+
+}
+
+label {
+    font-family: angryBirds, sans-serif;
+    font-size: 3em;
+    color: #fff;
+    display: inline;
+    text-shadow: black 2px 2px 2px;
+}
+
+table {
+    height: 50%;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border: none;
+    margin: 0 20px 0 20px;
+}
+
+.dispInline {
+    display: inline;
+    text-align: right;
+}
+
+#death {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 97;
+}
+
+#win {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 97;
+}
+
+#GameOver {
+    font-size: 7em;
+}
+
+#GameWin {
+    font-size: 7em;
+}
+
+#gameInfo {
+    justify-self: flex-end;
+    text-align: right;
+    top: 5%;
+    position: fixed;
+    z-index: 98;
+}
+
+#coin {
+    height: 30px;
+    width: auto;
+}
+
+#Points {
+    min-width: 75%;
+    max-width: 75%;
+    width: 75%;
+    display: inline;
+    text-align: right;
+}
+
+#livesDiv {
+    display: block;
+}
+
+#gameArea {
+    position: relative;
+    height: 600px;
+    width: 650px;
+    border-image: url('backbrick.png') 85 90 round;
+    border-top: 70px;
+    border-left: 70px;
+    border-right: 70px;
+    border-bottom: 0;
+    border-style: solid;
+    border-color: transparent;
+}
+
+@media screen and (max-width: 1366px) {
+    #gameArea {
+        position: relative;
+        height: 400px;
+        width: 433px;
+        border-image: url('backbrick.png') 70 80 round;
+        border-top: 70px;
+        border-left: 70px;
+        border-right: 70px;
+        border-bottom: 0;
+        border-style: solid;
+        border-color: transparent;
+    }
+}
+
+#ball {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    background: url("ball.png");
+    background-size: cover;
+    position: fixed;
+
+}
+
+.movingball {
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    background: url("ball.png");
+    background-size: cover;
+    position: fixed;
+}
+
+#pressPlay {
+    position: absolute;
+    top: 70%;
+    left: 30%;
+
+}
+
+#playingBar {
+    position: absolute;
+    /*top: 90%;*/
+    left: 46%;
+    width: 100px;
+    height: 10px;
+    background: linear-gradient(to top right, #0668b9 0%, #73fbfd 100%);
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: repeat;
+}
+
+#controls {
+    top: 90%;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    z-index: 99;
+}
+
+#home {
+    background-image: url("home.png");
+}
+
+#mute {
+    background-image: url("sound_on.png");
+}
+
+#refresh {
+    background-image: url("refresh.png");
+}

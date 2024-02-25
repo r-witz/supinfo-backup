@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="constantes.h" open="1" top="0" tabpos="1">
+		<Cursor position="1617" topLine="0" />
+	</File>
+	<File name="jeu.c" open="1" top="0" tabpos="4">
+		<Cursor position="96862" topLine="386" />
+	</File>
+	<File name="jeu.h" open="1" top="0" tabpos="3">
+		<Cursor position="560" topLine="0" />
+	</File>
+	<File name="main.c" open="1" top="1" tabpos="2">
+		<Cursor position="14134" topLine="355" />
+	</File>
+</CodeBlocks_layout_file>
